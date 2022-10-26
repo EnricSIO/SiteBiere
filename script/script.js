@@ -1,14 +1,16 @@
 
-// const mediaQueryList = window.matchMedia('(max-width: 900px)');
-// function screenTest(e) {
-//     if (e.matches) {
-//        document.querySelector(".navbar").style.display = "none";
-//     } else {
-//         console.log("no")
+const mediaQueryList = window.matchMedia('(max-width: 900px)');
+function screenTest(e) {
+    if (e.matches) {
+       document.querySelector("#logNoResp").style.display = "none";
+       document.querySelector("#logResp").style.display = "block";
+    } else {
+        document.querySelector("#logNoResp").style.display = "block";
+        document.querySelector("#logResp").style.display = "none";
         
-//     }
-//   }
-//   mediaQueryList.addListener(screenTest);
+    }
+  }
+  mediaQueryList.addListener(screenTest);
   
   
 function clickPopUp() {
