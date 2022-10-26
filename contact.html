@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <div class="navbar justify-content-center sticky-top flex-column flex-sm-row" id="d1">
+        <nav>
+            <ul>
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logo_bi%C3%A8re.svg" width="35%">
+                </a>
+                <li class="btn font-weight-bold" style=" font-size: 30px"><a class="fcolor"
+                        href="DefBiere.html">Qu'est-ce
+                        que
+                        la Bière ?</a></li>
+                <li class="btn font-weight-bold" style=" font-size: 30px"> <a class="fcolor" href="TypeBiere.html">Les
+                        types
+                        de
+                        bières</a></li>
+                <li class="btn  font-weight-bold" style=" font-size: 30px"><a class="fcolor"
+                        href="HistoireBiere.html">L'histoire de la bière</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</head>
+
+
+<div class="container popup">
+    <div class="row">
+        <div class="col">
+            <h4>Attention, merci de rester courtois et respectueux dans les messages que vous envoyez. Aucun manquement
+                ne sera toléré. <button onclick="clickPopUp()" class="btn-success">J'ai compris</button></h4>
+            
+        </div>
+    </div>
+</div>
+<center>
+    <div class="container">
+
+        <form id="formContact action=" mailto:enric-abasq@orange.fr?subject=Formulaire infobieres.fr">
+            <fieldset id="disableForm" disabled="disabled">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" class="form-control" id="email" aria-describedby="email"
+                        placeholder="Votre adresse mail">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="Nom">Nom</label>
+                            <input required type="text" class="form-control" id="Nom" placeholder="Nom">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="prenom">Prénom</label>
+                            <input required type="text" class="form-control" id="prenom" placeholder="Nom">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" >Envoyer</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+</center>
+
+<footer>
+
+    <script src="./script/script.js" defer></script>
+
+    <div class="navbar justify-content-center flex-column flex-sm-row navbar-dark" style="background-color: #343a40">
+        <nav>
+            <ul>
+                <li class="btn" style=" font-size: 30px"><a class="fcolor" href="MentionsLegales.html">Mentions
+                        légales</a></li>
+                <li class="btn" style=" font-size: 30px"> <a class="fcolor" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <div class="navbar justify-content-center sticky-top flex-column flex-sm-row" id="d1">
+        <nav>
+            <ul>
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logo_bi%C3%A8re.svg" width="35%">
+                </a>
+                <li class="btn font-weight-bold" style=" font-size: 30px"><a class="fcolor"
+                        href="DefBiere.html">Qu'est-ce
+                        que
+                        la Bière ?</a></li>
+                <li class="btn font-weight-bold" style=" font-size: 30px"> <a class="fcolor" href="TypeBiere.html">Les
+                        types
+                        de
+                        bières</a></li>
+                <li class="btn  font-weight-bold" style=" font-size: 30px"><a class="fcolor"
+                        href="HistoireBiere.html">L'histoire de la bière</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</head>
+
+<body>
+    <div class="fill">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="process">Le processus de création</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container case">
+            <div class="row">
+                <div class="col">
+                    <h1 class="process">Le brassage </h1>
+                </div>
+                <div class="col">
+                    <h1 class="text-pres">Le brassage est un processus complexe. Cliquez pour le découvrir ! <button
+                            onclick="showExp(this.id)" id="1"
+                            class="bouton material-symbols-outlined">expand_more</button></h1>
+
+                </div>
+                <div class="row pt-3 exp exp1">
+                    <div class="col">
+                        <h2>Durant le brassage, la matière première utilisée pour réaliser la bière (habituellement du
+                            malt) est ajouté à de l'eau chaude dans une grande cuve. Le mélange est ensuite remué
+                            (brassé, d'où le nom) pendant une à plusieurs heures
+                            selon la bière.</h2>
+                        <img class="img-illu" src="./images/brassage.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="container case">
+            <div class="row">
+                <div class="col">
+                    <h1 class="process">La fermentation </h1>
+                </div>
+                <div class="col">
+                    <h1 class="text-pres">La fermentation vient juste après le brassage et est indispensable, faites
+                        dérouler ! <button id="2" onclick="showExp(this.id)"
+                            class="bouton material-symbols-outlined">expand_more</button></h1>
+
+                </div>
+                <div class="row pt-3 exp exp2">
+                    <div class="col">
+                        <h2>Durant le brassage, la matière première utilisée pour réaliser la bière (habituellement du
+                            malt) est ajouté à de l'eau chaude dans une grande cuve. Le mélange est ensuite remué
+                            (brassé, d'où le nom) pendant une à plusieurs heures
+                            selon la bière.</h2>
+                        <img class="img-illu" src="./images/fermentation.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+
+<footer>
+
+    <script src="./script/script.js" defer></script>
+
+    <div class="navbar justify-content-center flex-column flex-sm-row navbar-dark" style="background-color: #343a40">
+        <nav>
+            <ul>
+                <li class="btn" style=" font-size: 30px"><a class="fcolor" href="MentionsLegales.html">Mentions
+                        légales</a></li>
+                <li class="btn" style=" font-size: 30px"> <a class="fcolor" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+</html>
